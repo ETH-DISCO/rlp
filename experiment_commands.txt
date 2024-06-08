@@ -1,0 +1,219 @@
+Instructions
+---------------------------------------------------
+
+Provided in the following are commands for 
+(a) training an agent,
+(b) having said trained agent solve 1000 puzzles,
+(c) having a random policy solve 1000 puzzles.
+
+For the training script of the transformer-based PPO, please refer directly to run_transformer.py
+
+To choose a specific reinforcement learning algorithm for (a)/(b),
+append the following argument:
+--algorithm <name_of_algorithm>
+
+To choose an observation type, append the following argument:
+--obs_type puzzle_state
+OR
+--obs_type rgb [default]
+
+To adjust the maximum episode length, append the following argument:
+--timelimit <time_limit>
+
+To adjust early termination, append the following argument:
+--max_state_repeats <max_state_repeats>
+
+For the available options, type ./run_training.py --help
+Example, choosing PPO:
+./run_training.py --puzzle blackbox --arg w2h2m2M2 --timesteps 2000000 --algorithm PPO
+
+---------------------------------------------------
+Blackbox
+./run_training.py --puzzle blackbox --arg w2h2m2M2 --timesteps 2000000
+./run_trained_agent.py --puzzle blackbox --arg w2h2m2M2 --timesteps 2000000
+./run_random.py --puzzle blackbox --arg w2h2m2M2
+---------------------------------------------------
+Bridges
+./run_training.py --puzzle bridges --arg 3x3 --timesteps 2000000
+./run_trained_agent.py --puzzle bridges --arg 3x3 --timesteps 2000000
+./run_random.py --puzzle bridges --arg 3x3
+---------------------------------------------------
+Cube
+./run_training.py --puzzle cube --arg c3x3 --timesteps 2000000
+./run_trained_agent.py --puzzle cube --arg c3x3 --timesteps 2000000
+./run_random.py --puzzle cube --arg c3x3
+---------------------------------------------------
+Dominosa
+./run_training.py --puzzle dominosa --arg 1dt --timesteps 2000000
+./run_trained_agent.py --puzzle dominosa --arg 1dt --timesteps 2000000
+./run_random.py --puzzle dominosa --arg 1dt
+---------------------------------------------------
+Fifteen
+./run_training.py --puzzle fifteen --arg 2x2 --timesteps 2000000
+./run_trained_agent.py --puzzle fifteen --arg 2x2 --timesteps 2000000
+./run_random.py --puzzle fifteen --arg 2x2
+---------------------------------------------------
+Filling
+./run_training.py --puzzle filling --arg 2x3 --timesteps 2000000
+./run_trained_agent.py --puzzle filling --arg 2x3 --timesteps 2000000
+./run_random.py --puzzle filling --arg 2x3
+---------------------------------------------------
+Flip
+./run_training.py --puzzle flip --arg 3x3c --timesteps 2000000
+./run_trained_agent.py --puzzle flip --arg 3x3c --timesteps 2000000
+./run_random.py --puzzle flip --arg 3x3c
+---------------------------------------------------
+Flood
+./run_training.py --puzzle flood --arg 3x3c6m5 --timesteps 2000000
+./run_trained_agent.py --puzzle flood --arg 3x3c6m5 --timesteps 2000000
+./run_random.py --puzzle flood --arg 3x3c6m5
+---------------------------------------------------
+Galaxies
+./run_training.py --puzzle galaxies --arg 3x3de --timesteps 2000000
+./run_trained_agent.py --puzzle galaxies --arg 3x3de --timesteps 2000000
+./run_random.py --puzzle galaxies --arg 3x3de
+---------------------------------------------------
+Guess
+./run_training.py --puzzle guess --arg c2p3g10Bm --timesteps 2000000
+./run_trained_agent.py --puzzle guess --arg c2p3g10Bm --timesteps 2000000
+./run_random.py --puzzle guess --arg c2p3g10Bm
+---------------------------------------------------
+Inertia
+./run_training.py --puzzle inertia --arg 4x4 --timesteps 2000000
+./run_trained_agent.py --puzzle inertia --arg 4x4 --timesteps 2000000
+./run_random.py --puzzle inertia --arg 4x4
+---------------------------------------------------
+Keen
+./run_training.py --puzzle keen --arg 3dem --timesteps 2000000
+./run_trained_agent.py --puzzle keen --arg 3dem --timesteps 2000000
+./run_random.py --puzzle keen --arg 3dem
+---------------------------------------------------
+Light Up
+./run_training.py --puzzle lightup --arg 3x3b20s0d0 --timesteps 2000000
+./run_trained_agent.py --puzzle lightup --arg 3x3b20s0d0 --timesteps 2000000
+./run_random.py --puzzle lightup --arg 3x3b20s0d0
+---------------------------------------------------
+Magnets
+./run_training.py --puzzle magnets --arg 3x3deS --timesteps 2000000
+./run_trained_agent.py --puzzle magnets --arg 3x3deS --timesteps 2000000
+./run_random.py --puzzle magnets --arg 3x3deS
+---------------------------------------------------
+Map
+./run_training.py --puzzle fifteen --arg 3x3n5de --timesteps 2000000
+./run_trained_agent.py --puzzle fifteen --arg 3x3n5de --timesteps 2000000
+./run_random.py --puzzle fifteen --arg 3x3n5de
+---------------------------------------------------
+Mines
+./run_training.py --puzzle mines --arg 4x4n2 --timesteps 2000000
+./run_trained_agent.py --puzzle mines --arg 4x4n2 --timesteps 2000000
+./run_random.py --puzzle mines --arg 4x4n2
+---------------------------------------------------
+Mosaic
+./run_training.py --puzzle mosaic --arg 3x3 --timesteps 2000000
+./run_trained_agent.py --puzzle mosaic --arg 3x3 --timesteps 2000000
+./run_random.py --puzzle mosaic --arg 3x3
+---------------------------------------------------
+Net
+./run_training.py --puzzle net --arg 2x2 --timesteps 2000000
+./run_trained_agent.py --puzzle net --arg 2x2 --timesteps 2000000
+./run_random.py --puzzle net --arg 2x2
+---------------------------------------------------
+Netslide
+./run_training.py --puzzle netslide --arg 2x3b1 --timesteps 2000000
+./run_trained_agent.py --puzzle netslide --arg 2x3b1 --timesteps 2000000
+./run_random.py --puzzle netslide --arg 2x3b1
+---------------------------------------------------
+Palisade
+./run_training.py --puzzle palisade --arg 2x3n3 --timesteps 2000000
+./run_trained_agent.py --puzzle palisade --arg 2x3n3 --timesteps 2000000
+./run_random.py --puzzle palisade --arg 2x3n3
+---------------------------------------------------
+Pattern
+./run_training.py --puzzle pattern --arg 3x2 --timesteps 2000000
+./run_trained_agent.py --puzzle pattern --arg 3x2 --timesteps 2000000
+./run_random.py --puzzle pattern --arg 3x2
+---------------------------------------------------
+Pearl
+./run_training.py --puzzle pearl --arg 5x5de --timesteps 2000000
+./run_trained_agent.py --puzzle pearl --arg 5x5de --timesteps 2000000
+./run_random.py --puzzle pearl --arg 5x5de
+---------------------------------------------------
+Pegs
+./run_training.py --puzzle pegs --arg 4x4random --timesteps 2000000
+./run_trained_agent.py --puzzle pegs --arg 4x4random --timesteps 2000000
+./run_random.py --puzzle pegs --arg 4x4random
+---------------------------------------------------
+Range
+./run_training.py --puzzle range --arg 3x3 --timesteps 2000000
+./run_trained_agent.py --puzzle range --arg 3x3 --timesteps 2000000
+./run_random.py --puzzle range --arg 3x3
+---------------------------------------------------
+Rectangles
+./run_training.py --puzzle rect --arg 3x2 --timesteps 2000000
+./run_trained_agent.py --puzzle rect --arg 3x2 --timesteps 2000000
+./run_random.py --puzzle rect --arg 3x2
+---------------------------------------------------
+Same Game
+./run_training.py --puzzle samegame --arg 2x3c3s2 --timesteps 2000000
+./run_trained_agent.py --puzzle samegame --arg 2x3c3s2 --timesteps 2000000
+./run_random.py --puzzle samegame --arg 2x3c3s2
+---------------------------------------------------
+Signpost
+./run_training.py --puzzle signpost --arg 2x3 --timesteps 2000000
+./run_trained_agent.py --puzzle signpost --arg 2x3 --timesteps 2000000
+./run_random.py --puzzle signpost --arg 2x3
+---------------------------------------------------
+Singles
+./run_training.py --puzzle singles --arg 2x3de --timesteps 2000000
+./run_trained_agent.py --puzzle singles --arg 2x3de --timesteps 2000000
+./run_random.py --puzzle singles --arg 2x3de
+---------------------------------------------------
+Sixteen
+./run_training.py --puzzle sixteen --arg 2x3 --timesteps 2000000
+./run_trained_agent.py --puzzle sixteen --arg 2x3 --timesteps 2000000
+./run_random.py --puzzle sixteen --arg 2x3
+---------------------------------------------------
+Slant
+./run_training.py --puzzle slant --arg 2x2de --timesteps 2000000
+./run_trained_agent.py --puzzle slant --arg 2x2de --timesteps 2000000
+./run_random.py --puzzle slant --arg 2x2de
+---------------------------------------------------
+Solo
+./run_training.py --puzzle solo --arg 2x2 --timesteps 2000000
+./run_trained_agent.py --puzzle solo --arg 2x2 --timesteps 2000000
+./run_random.py --puzzle solo --arg 2x2
+---------------------------------------------------
+Tents
+./run_training.py --puzzle tents --arg 4x4de --timesteps 2000000
+./run_trained_agent.py --puzzle tents --arg 4x4de --timesteps 2000000
+./run_random.py --puzzle tents --arg 4x4de
+---------------------------------------------------
+Towers
+./run_training.py --puzzle towers --arg 3de --timesteps 2000000
+./run_trained_agent.py --puzzle towers --arg 3de --timesteps 2000000
+./run_random.py --puzzle towers --arg 3de
+---------------------------------------------------
+Tracks
+./run_training.py --puzzle tracks --arg 4x4de --timesteps 2000000
+./run_trained_agent.py --puzzle tracks --arg 4x4de --timesteps 2000000
+./run_random.py --puzzle tracks --arg 4x4de
+---------------------------------------------------
+Twiddle
+./run_training.py --puzzle twiddle --arg 2x3n2 --timesteps 2000000
+./run_trained_agent.py --puzzle twiddle --arg 2x3n2 --timesteps 2000000
+./run_random.py --puzzle twiddle --arg 2x3n2
+---------------------------------------------------
+Undead
+./run_training.py --puzzle undead --arg 3x3de --timesteps 2000000
+./run_trained_agent.py --puzzle undead --arg 3x3de --timesteps 2000000
+./run_random.py --puzzle undead --arg 3x3de
+---------------------------------------------------
+Unequal
+./run_training.py --puzzle unequal --arg 3de --timesteps 2000000
+./run_trained_agent.py --puzzle unequal --arg 3de --timesteps 2000000
+./run_random.py --puzzle unequal --arg 3de
+---------------------------------------------------
+Unruly
+./run_training.py --puzzle unruly --arg 6x6dt --timesteps 2000000
+./run_trained_agent.py --puzzle unruly --arg 6x6dt --timesteps 2000000
+./run_random.py --puzzle unruly --arg 6x6dt

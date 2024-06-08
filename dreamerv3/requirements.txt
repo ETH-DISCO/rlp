@@ -1,0 +1,10 @@
+cloudpickle
+crafter
+jax
+jaxlib
+numpy
+optax
+rich
+ruamel.yaml
+tensorflow-cpu
+tensorflow_probability
