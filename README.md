@@ -29,7 +29,7 @@ We only tested the code on Linux.
 First, clone the git repository to your local machine.
 
 ```shell
-git clone https://github.com/a8142stm/qw8q.git
+git clone https://github.com/ETH-DISCO/rlp.git
 ```
 
 Step into the directory.
