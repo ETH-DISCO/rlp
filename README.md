@@ -2,7 +2,7 @@
 
 ## Description
 
-This code supports the Submission _PUZZLES: A Benchmark for Neural Algorithmic Reasoning_.
+This code supports the Submission _PUZZLES: A Benchmark for Neural Algorithmic Reasoning_. A current version of the paper is available on [arXiv](https://www.arxiv.org/abs/2407.00401).
 
 We provide `RLP`, a Reinforcement Learning (RL) environment based on [Simon Tatham's Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/), designed for use with [Farama's Gymnasium](https://gymnasium.farama.org/) RL tools.
 
