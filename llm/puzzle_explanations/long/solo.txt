@@ -1,0 +1,32 @@
+You have a square grid, which is divided into as many equally sized sub-blocks as the grid has rows. Each square must be filled in with a digit from 1 to the size of the grid, in such a way that
+
+every row contains only one occurrence of each digit
+every column contains only one occurrence of each digit
+every block contains only one occurrence of each digit.
+(optionally, by default off) each of the square's two main diagonals contains only one occurrence of each digit.
+You are given some of the numbers as clues; your aim is to place the rest of the numbers correctly.
+
+Under the default settings, the sub-blocks are square or rectangular. The default puzzle size is 3×3 (a 9×9 actual grid, divided into nine 3×3 blocks). You can also select sizes with rectangular blocks instead of square ones, such as 2×3 (a 6×6 grid divided into six 3×2 blocks). Alternatively, you can select ‘jigsaw’ mode, in which the sub-blocks are arbitrary shapes which differ between individual puzzles.
+
+Another available mode is ‘killer’. In this mode, clues are not given in the form of filled-in squares; instead, the grid is divided into ‘cages’ by coloured lines, and for each cage the game tells you what the sum of all the digits in that cage should be. Also, no digit may appear more than once within a cage, even if the cage crosses the boundaries of existing regions.
+
+If you select a puzzle size which requires more than 9 digits, the additional digits will be letters of the alphabet. For example, if you select 3×4 then the digits which go in your grid will be 1 to 9, plus ‘a’, ‘b’ and ‘c’. This cannot be selected for killer puzzles.
+
+I first saw this puzzle in Nikoli [5], although it's also been popularised by various newspapers under the name ‘Sudoku’ or ‘Su Doku’. Howard Garns is considered the inventor of the modern form of the puzzle, and it was first published in Dell Pencil Puzzles and Word Games. A more elaborate treatment of the history of the puzzle can be found on Wikipedia [6].
+
+[5] https://www.nikoli.co.jp/en/puzzles/sudoku/
+
+[6] http://en.wikipedia.org/wiki/Sudoku
+
+To play Solo, simply click the mouse in any empty square and then type a digit or letter on the keyboard to fill that square. If you make a mistake, click the mouse in the incorrect square and press Space to clear it again (or use the Undo feature).
+
+If you right-click in a square and then type a number, that number will be entered in the square as a ‘pencil mark’. You can have pencil marks for multiple numbers in the same square. Squares containing filled-in numbers cannot also contain pencil marks.
+
+The game pays no attention to pencil marks, so exactly what you use them for is up to you: you can use them as reminders that a particular square needs to be re-examined once you know more about a particular number, or you can use them as lists of the possible numbers in a given square, or anything else you feel like.
+
+To erase a single pencil mark, right-click in the square and type the same number again.
+
+All pencil marks in a square are erased when you left-click and type a number, or when you left-click and press space. Right-clicking and pressing space will also erase pencil marks.
+
+Alternatively, use the cursor keys to move the mark around the grid. Pressing the return key toggles the mark (from a normal mark to a pencil mark), and typing a number in is entered in the square in the appropriate way; typing in a 0 or using the space bar will clear a filled square.
+

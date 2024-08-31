@@ -1,0 +1,11 @@
+You are a small green ball sitting in a grid full of obstacles. Your aim is to collect all the gems without running into any mines.
+
+You can move the ball in any orthogonal or diagonal direction. Once the ball starts moving, it will continue until something stops it. A wall directly in its path will stop it (but if it is moving diagonally, it will move through a diagonal gap between two other walls without stopping). Also, some of the squares are ‘stops’; when the ball moves on to a stop, it will stop moving no matter what direction it was going in. Gems do not stop the ball; it picks them up and keeps on going.
+
+Running into a mine is fatal. Even if you picked up the last gem in the same move which then hit a mine, the game will count you as dead rather than victorious.
+
+This game was originally implemented for Windows by Ben Olmstead [11], who was kind enough to release his source code on request so that it could be re-implemented for this collection.
+
+[11] http://xn13.com/
+
+You can move the ball in any of the eight directions using the numeric keypad. Alternatively, if you click the left mouse button on the grid, the ball will begin a move in the general direction of where you clicked.

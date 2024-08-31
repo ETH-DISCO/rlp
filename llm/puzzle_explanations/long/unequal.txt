@@ -1,0 +1,35 @@
+ You have a square grid; each square may contain a digit from 1 to the size of the grid, and some squares have clue signs between them. Your aim is to fully populate the grid with numbers such that:
+
+    Each row contains only one occurrence of each digit
+    Each column contains only one occurrence of each digit
+    All the clue signs are satisfied.
+
+There are two modes for this game, ‘Unequal’ and ‘Adjacent’.
+
+In ‘Unequal’ mode, the clue signs are greater-than symbols indicating one square's value is greater than its neighbour's. In this mode not all clues may be visible, particularly at higher difficulty levels.
+
+In ‘Adjacent’ mode, the clue signs are bars indicating one square's value is numerically adjacent (i.e. one higher or one lower) than its neighbour. In this mode all clues are always visible: absence of a bar thus means that a square's value is definitely not numerically adjacent to that neighbour's.
+
+In ‘Trivial’ difficulty level (available via the ‘Custom’ game type selector), there are no greater-than signs in ‘Unequal’ mode; the puzzle is to solve the Latin square only.
+
+At the time of writing, the ‘Unequal’ mode of this puzzle is appearing in the Guardian weekly under the name ‘Futoshiki’.
+
+Unequal was contributed to this collection by James Harvey.
+
+ Unequal shares much of its control system with Solo.
+
+To play Unequal, simply click the mouse in any empty square and then type a digit or letter on the keyboard to fill that square. If you make a mistake, click the mouse in the incorrect square and press Space to clear it again (or use the Undo feature).
+
+If you right-click in a square and then type a number, that number will be entered in the square as a ‘pencil mark’. You can have pencil marks for multiple numbers in the same square. Squares containing filled-in numbers cannot also contain pencil marks.
+
+The game pays no attention to pencil marks, so exactly what you use them for is up to you: you can use them as reminders that a particular square needs to be re-examined once you know more about a particular number, or you can use them as lists of the possible numbers in a given square, or anything else you feel like.
+
+To erase a single pencil mark, right-click in the square and type the same number again.
+
+All pencil marks in a square are erased when you left-click and type a number, or when you left-click and press space. Right-clicking and pressing space will also erase pencil marks.
+
+As for Solo, the cursor keys can be used in conjunction with the digit keys to set numbers or pencil marks. You can also use the ‘M’ key to auto-fill every numeric hint, ready for removal as required, or the ‘H’ key to do the same but also to remove all obvious hints.
+
+Alternatively, use the cursor keys to move the mark around the grid. Pressing the return key toggles the mark (from a normal mark to a pencil mark), and typing a number in is entered in the square in the appropriate way; typing in a 0 or using the space bar will clear a filled square.
+
+Left-clicking a clue will mark it as done (grey it out), or unmark it if it is already marked. Holding Control or Shift and pressing an arrow key likewise marks any clue adjacent to the cursor in the given direction.

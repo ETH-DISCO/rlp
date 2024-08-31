@@ -1,0 +1,11 @@
+A normal set of dominoes – that is, one instance of every (unordered) pair of numbers from 0 to 6 – has been arranged irregularly into a rectangle; then the number in each square has been written down and the dominoes themselves removed. Your task is to reconstruct the pattern by arranging the set of dominoes to match the provided array of numbers.
+
+This puzzle is widely credited to O. S. Adler, and takes part of its name from those initials.
+
+Left-clicking between any two adjacent numbers places a domino covering them, or removes one if it is already present. Trying to place a domino which overlaps existing dominoes will remove the ones it overlaps.
+
+Right-clicking between two adjacent numbers draws a line between them, which you can use to remind yourself that you know those two numbers are not covered by a single domino. Right-clicking again removes the line.
+
+You can also use the cursor keys to move a cursor around the grid. When the cursor is half way between two adjacent numbers, pressing the return key will place a domino covering those numbers, or pressing the space bar will lay a line between the two squares. Repeating either action removes the domino or line.
+
+Pressing a number key will highlight all occurrences of that number. Pressing that number again will clear the highlighting. Up to two different numbers can be highlighted at any given time.

@@ -1,0 +1,14 @@
+You have a grid of squares, some of which contain trees. Your aim is to place tents in some of the remaining squares, in such a way that the following conditions are met:
+
+There are exactly as many tents as trees.
+The tents and trees can be matched up in such a way that each tent is directly adjacent (horizontally or vertically, but not diagonally) to its own tree. However, a tent may be adjacent to other trees as well as its own.
+No two tents are adjacent horizontally, vertically or diagonally.
+The number of tents in each row, and in each column, matches the numbers given round the sides of the grid.
+This puzzle can be found in several places on the Internet, and was brought to my attention by e-mail. I don't know who I should credit for inventing it.
+
+Left-clicking in a blank square will place a tent in it. Right-clicking in a blank square will colour it green, indicating that you are sure it isn't a tent. Clicking either button in an occupied square will clear it.
+
+If you drag with the right button along a row or column, every blank square in the region you cover will be turned green, and no other squares will be affected. (This is useful for clearing the remainder of a row once you have placed all its tents.)
+
+You can also use the cursor keys to move around the grid. Pressing the return key over an empty square will place a tent, and pressing the space bar over an empty square will colour it green; either key will clear an occupied square. Holding Shift and pressing the cursor keys will colour empty squares green. Holding Control and pressing the cursor keys will colour green both empty squares and squares with tents.
+

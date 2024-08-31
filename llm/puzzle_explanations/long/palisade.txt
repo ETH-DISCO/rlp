@@ -1,0 +1,12 @@
+You're given a grid of squares, some of which contain numbers. Your goal is to subdivide the grid into contiguous regions, all of the same (given) size, such that each square containing a number is adjacent to exactly that many edges (including those between the inside and the outside of the grid).
+
+Credit for this puzzle goes to Nikoli, who call it ‘Five Cells’. [22].
+
+Palisade was contributed to this collection by Jonas Kölker.
+
+[22] https://www.nikoli.co.jp/en/puzzles/five_cells/
+
+Left-click to place an edge. Right-click to indicate ‘no edge’.
+
+Alternatively, the arrow keys will move a keyboard cursor. Depending on the ‘Cursor mode’ preference (see section 41.3), the cursor will either navigate among the grid squares, or along their borders. In ‘Full-grid’ mode, hold Control while pressing an arrow key to place an edge, and press Shift-arrowkey to switch off an edge. In ‘Half-grid’ mode, press Enter to place an edge, and Space to switch off an edge. In either mode, you can repeat an action to perform its inverse.
+

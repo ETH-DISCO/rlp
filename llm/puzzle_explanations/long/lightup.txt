@@ -1,0 +1,27 @@
+You have a grid of squares. Some are filled in black; some of the black squares are numbered. Your aim is to ‘light up’ all the empty squares by placing light bulbs in some of them.
+
+Each light bulb illuminates the square it is on, plus all squares in line with it horizontally or vertically unless a black square is blocking the way.
+
+To win the game, you must satisfy the following conditions:
+
+    All non-black squares are lit.
+    No light is lit by another light.
+    All numbered black squares have exactly that number of lights adjacent to them (in the four squares above, below, and to the side).
+
+Non-numbered black squares may have any number of lights adjacent to them.
+
+Credit for this puzzle goes to Nikoli [9].
+
+Light Up was contributed to this collection by James Harvey.
+
+[9] https://www.nikoli.co.jp/en/puzzles/akari/
+
+Left-clicking in a non-black square will toggle the presence of a light in that square. Right-clicking in a non-black square toggles a mark there to aid solving; it can be used to highlight squares that cannot be lit, for example.
+
+Alternatively, use the cursor keys to move the mark around the grid. Pressing the return key will toggle the presence of a light in that square.
+
+You may not place a light in a marked square, nor place a mark in a lit square.
+
+The game will highlight obvious errors in red. Lights lit by other lights are highlighted in this way, as are numbered squares which do not (or cannot) have the right number of lights next to them.
+
+Thus, the grid is solved when all non-black squares have yellow highlights and there are no red lights.

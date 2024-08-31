@@ -1,0 +1,17 @@
+You have a grid of coloured squares, which you have to clear by highlighting contiguous regions of more than one coloured square; the larger the region you highlight, the more points you get (and the faster you clear the arena).
+
+If you clear the grid you win. If you end up with nothing but single squares (i.e., there are no more clickable regions left) you lose.
+
+Removing a region causes the rest of the grid to shuffle up: blocks that are suspended will fall down (first), and then empty columns are filled from the right.
+
+Same Game was contributed to this collection by James Harvey.
+
+This game can be played with either the keyboard or the mouse.
+
+If you left-click an unselected region, it becomes selected (possibly clearing the current selection).
+
+If you left-click the selected region, it will be removed (and the rest of the grid shuffled immediately).
+
+If you right-click the selected region, it will be unselected.
+
+The cursor keys move a cursor around the grid. Pressing the Space or Enter keys while the cursor is in an unselected region selects it; pressing Space or Enter again removes it as above.

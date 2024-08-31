@@ -1,0 +1,9 @@
+You are given a grid of squares, coloured at random in multiple colours. In each move, you can flood-fill the top left square in a colour of your choice (i.e. every square reachable from the starting square by an orthogonally connected path of squares all the same colour will be filled in the new colour). As you do this, more and more of the grid becomes connected to the starting square.
+
+Your aim is to make the whole grid the same colour, in as few moves as possible. The game will set a limit on the number of moves, based on running its own internal solver. You win if you can make the whole grid the same colour in that many moves or fewer.
+
+I saw this game (with a fixed grid size, fixed number of colours, and fixed move limit) at http://floodit.appspot.com (no longer accessible).
+
+To play Flood, click the mouse in a square. The top left corner and everything connected to it will be flood-filled with the colour of the square you clicked. Clicking a square the same colour as the top left corner has no effect, and therefore does not count as a move.
+
+You can also use the cursor keys to move a cursor (outline black square) around the grid. Pressing the return key will fill the top left corner in the colour of the square under the cursor.

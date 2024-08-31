@@ -1,0 +1,21 @@
+I originally saw this in the form of a Flash game called FreeNet [1], written by Pavils Jurjans; there are several other implementations under the name NetWalk. The computer prepares a network by connecting up the centres of squares in a grid, and then shuffles the network by rotating every tile randomly. Your job is to rotate it all back into place. The successful solution will be an entirely connected network, with no closed loops. As a visual aid, all tiles which are connected to the one in the middle are highlighted.
+
+[1] http://www.jurjans.lv/stuff/net/FreeNet.htm
+
+This game can be played with either the keyboard or the mouse. The controls are:
+
+Select tile: mouse pointer, arrow keys
+Rotate tile anticlockwise: left mouse button, ‘A’ key
+Rotate tile clockwise: right mouse button, ‘D’ key
+Rotate tile by 180 degrees: ‘F’ key
+Lock (or unlock) tile: middle mouse button, shift-click, ‘S’ key
+    You can lock a tile once you're sure of its orientation. You can also unlock it again, but while it's locked you can't accidentally turn it.
+
+The following controls are not necessary to complete the game, but may be useful:
+
+Shift grid: Shift + arrow keys
+    On grids that wrap, you can move the origin of the grid, so that tiles that were on opposite sides of the grid can be seen together.
+Move centre: Ctrl + arrow keys
+    You can change which tile is used as the source of highlighting. (It doesn't ultimately matter which tile this is, as every tile will be connected to every other tile in a correct solution, but it may be helpful in the intermediate stages of solving the puzzle.)
+Jumble tiles: ‘J’ key
+    This key turns all tiles that are not locked to random orientations.

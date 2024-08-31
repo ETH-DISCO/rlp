@@ -1,0 +1,12 @@
+You are given a grid of squares, some of which are filled with train tracks. You need to complete the track from A to B so that the rows and columns contain the same number of track segments as are indicated in the clues to the top and right of the grid.
+
+There are only straight and 90 degree curved rails, and the track may not cross itself.
+
+Tracks was contributed to this collection by James Harvey.
+
+ Left-clicking on an edge between two squares adds a track segment between the two squares. Right-clicking on an edge adds a cross on the edge, indicating no track is possible there.
+
+Left-clicking in a square adds a colour indicator showing that you know the square must contain a track, even if you don't know which edges it crosses yet. Right-clicking in a square adds a cross indicating it contains no track segment.
+
+Left- or right-dragging between squares allows you to lay a straight line of is-track or is-not-track indicators, useful for filling in rows or columns to match the clue.
+

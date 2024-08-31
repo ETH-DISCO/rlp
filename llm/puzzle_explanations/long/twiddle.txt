@@ -1,0 +1,14 @@
+Twiddle is a tile-rearrangement puzzle, visually similar to Sixteen (see chapter 6): you are given a grid of square tiles, each containing a number, and your aim is to arrange the numbers into ascending order.
+
+In basic Twiddle, your move is to rotate a square group of four tiles about their common centre. (Orientation is not significant in the basic puzzle, although you can select it.) On more advanced settings, you can rotate a larger square group of tiles.
+
+I first saw this type of puzzle in the GameCube game ‘Metroid Prime 2’. In the Main Gyro Chamber in that game, there is a puzzle you solve to unlock a door, which is a special case of Twiddle. I developed this game as a generalisation of that puzzle.
+
+To play Twiddle, click the mouse in the centre of the square group you wish to rotate. In the basic mode, you rotate a 2×2 square, which means you have to click at a corner point where four tiles meet.
+
+In more advanced modes you might be rotating 3×3 or even more at a time; if the size of the square is odd then you simply click in the centre tile of the square you want to rotate.
+
+Clicking with the left mouse button rotates the group anticlockwise. Clicking with the right button rotates it clockwise.
+
+You can also move an outline square around the grid with the cursor keys; the square is the size above (2×2 by default, or larger). Pressing the return key or space bar will rotate the current square anticlockwise or clockwise respectively.
+

@@ -1,0 +1,23 @@
+You have a set of coloured pegs, and have to reproduce a predetermined sequence of them (chosen by the computer) within a certain number of guesses.
+
+Each guess gets marked with the number of correctly-coloured pegs in the correct places (in black), and also the number of correctly-coloured pegs in the wrong places (in white).
+
+This game is also known (and marketed, by Hasbro, mainly) as a board game ‘Mastermind’, with 6 colours, 4 pegs per row, and 10 guesses. However, this version allows custom settings of number of colours (up to 10), number of pegs per row, and number of guesses.
+
+Guess was contributed to this collection by James Harvey.
+
+This game can be played with either the keyboard or the mouse.
+
+With the mouse, drag a coloured peg from the tray on the left-hand side to its required position in the current guess; pegs may also be dragged from current and past guesses to copy them elsewhere. To remove a peg, drag it off its current position to somewhere invalid.
+
+Right-clicking in the current guess adds a ‘hold’ marker; pegs that have hold markers will be automatically added to the next guess after marking.
+
+Alternatively, with the keyboard, the up and down cursor keys can be used to select a peg colour, the left and right keys to select a peg position, and the Enter key to place a peg of the selected colour in the chosen position. ‘D’ or Backspace removes a peg, and Space adds a hold marker.
+
+The number keys can also be used to insert pegs: ‘1’ inserts the top-most colour, ‘2’ the second one, and so forth. These also move the peg cursor to the right. Pressing ‘L’ will label the pegs with their numbers.
+
+Pressing ‘h’ or ‘?’ will fill the current guess with a suggested guess. Using this is not recommended for 10 or more pegs as it is slow.
+
+When the guess is complete, the smaller feedback pegs will be highlighted; clicking on these (or moving the peg cursor to them with the arrow keys and pressing the space bar or Enter key) will mark the current guess, copy any held pegs to the next guess, and move the ‘current guess’ marker.
+
+If you correctly position all the pegs the solution will be displayed below; if you run out of guesses (or select ‘Solve...’) the solution will also be revealed.

@@ -1,0 +1,29 @@
+You have a square grid; each square may contain a digit from 1 to the size of the grid. The grid is divided into blocks of varying shape and size, with arithmetic clues written in them. Your aim is to fully populate the grid with digits such that:
+
+    Each row contains only one occurrence of each digit
+    Each column contains only one occurrence of each digit
+    The digits in each block can be combined to form the number stated in the clue, using the arithmetic operation given in the clue. That is:
+        An addition clue means that the sum of the digits in the block must be the given number. For example, ‘15+’ means the contents of the block adds up to fifteen.
+        A multiplication clue (e.g. ‘60×’), similarly, means that the product of the digits in the block must be the given number.
+        A subtraction clue will always be written in a block of size two, and it means that one of the digits in the block is greater than the other by the given amount. For example, ‘2−’ means that one of the digits in the block is 2 more than the other, or equivalently that one digit minus the other one is 2. The two digits could be either way round, though.
+        A division clue (e.g. ‘3÷’), similarly, is always in a block of size two and means that one digit divided by the other is equal to the given amount.
+
+    Note that a block may contain the same digit more than once (provided the identical ones are not in the same row and column). This rule is precisely the opposite of the rule in Solo's ‘Killer’ mode (see chapter 11).
+
+This puzzle appears in the Times under the name ‘KenKen’.
+
+Keen shares much of its control system with Solo (and Unequal).
+
+To play Keen, simply click the mouse in any empty square and then type a digit on the keyboard to fill that square. If you make a mistake, click the mouse in the incorrect square and press Space to clear it again (or use the Undo feature).
+
+If you right-click in a square and then type a number, that number will be entered in the square as a ‘pencil mark’. You can have pencil marks for multiple numbers in the same square. Squares containing filled-in numbers cannot also contain pencil marks.
+
+The game pays no attention to pencil marks, so exactly what you use them for is up to you: you can use them as reminders that a particular square needs to be re-examined once you know more about a particular number, or you can use them as lists of the possible numbers in a given square, or anything else you feel like.
+
+To erase a single pencil mark, right-click in the square and type the same number again.
+
+All pencil marks in a square are erased when you left-click and type a number, or when you left-click and press space. Right-clicking and pressing space will also erase pencil marks.
+
+As for Solo, the cursor keys can be used in conjunction with the digit keys to set numbers or pencil marks. Use the cursor keys to move a highlight around the grid, and type a digit to enter it in the highlighted square. Pressing return toggles the highlight into a mode in which you can enter or remove pencil marks.
+
+Pressing M will fill in a full set of pencil marks in every square that does not have a main digit in it.

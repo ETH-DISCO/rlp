@@ -1,0 +1,15 @@
+You have a rectangular grid containing a number of dots. Your aim is to partition the rectangle into connected regions of squares, in such a way that every region is 180° rotationally symmetric, and contains exactly one dot which is located at its centre of symmetry.
+
+To enter your solution, you draw lines along the grid edges to mark the boundaries of the regions. The puzzle is complete when the marked lines on the grid are precisely those that separate two squares belonging to different regions.
+
+This puzzle was invented by Nikoli [13], under the name ‘Tentai Show’; its name is commonly translated into English as ‘Spiral Galaxies’.
+
+Galaxies was contributed to this collection by James Harvey.
+
+[13] https://www.nikoli.co.jp/en/puzzles/tentai_show/
+
+ Left-click on any grid line to draw an edge if there isn't one already, or to remove one if there is. When you create a valid region (one which is closed, contains exactly one dot, is 180° symmetric about that dot, and contains no extraneous edges between two of its own squares), it will be highlighted automatically; so your aim is to have the whole grid highlighted in that way.
+
+During solving, you might know that a particular grid square belongs to a specific dot, but not be sure of where the edges go and which other squares are connected to the dot. In order to mark this so you don't forget, you can right-click on the dot and drag, which will create an arrow marker pointing at the dot. Drop that in a square of your choice and it will remind you which dot it's associated with. You can also right-click on existing arrows to pick them up and move them, or destroy them by dropping them off the edge of the grid. (Also, if you're not sure which dot an arrow is pointing at, you can pick it up and move it around to make it clearer. It will swivel constantly as you drag it, to stay pointed at its parent dot.)
+
+You can also use the cursor keys to move around the grid squares and lines. Pressing the return key when over a grid line will draw or clear its edge, as above. Pressing the return key when over a dot will pick up an arrow, to be dropped the next time the return key is pressed; this can also be used to move existing arrows around, removing them by dropping them on a dot or another arrow.

@@ -4,7 +4,8 @@ setup(
     name="rlp",
     description="Package containing a Gymnasium-compatible version of Simon Tatham's Portable Puzzle Collection.",
     version="1.0.0",
-    install_requires=["gymnasium>=0.28.0", "pygame>=2.1.0"],
+    install_requires=["gymnasium>=0.28.0", "pygame>=2.1.0", "numpy>=2.0.0",
+                      "Pillow>=10.4", "openai>=1.42.0", "google-generativeai>=0.7.0"],
     packages=["rlp", "rlp.envs", "rlp.constants"],
     package_dir={
         "rlp": "rlp",

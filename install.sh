@@ -4,7 +4,7 @@
 set -e
 
 # create and activate the virtual environment
-python3 -m venv rlpvenv
+python3.11 -m venv rlpvenv
 source rlpvenv/bin/activate
 
 # build the C libraries

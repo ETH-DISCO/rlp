@@ -1,0 +1,17 @@
+You are given a grid of dots, marked with yellow lines to indicate which dots you are allowed to connect directly together. Your aim is to use some subset of those yellow lines to draw a single unbroken loop from dot to dot within the grid.
+
+Some of the spaces between the lines contain numbers. These numbers indicate how many of the lines around that space form part of the loop. The loop you draw must correctly satisfy all of these clues to be considered a correct solution.
+
+In the default mode, the dots are arranged in a grid of squares; however, you can also play on triangular or hexagonal grids, or even more exotic ones.
+
+Credit for the basic puzzle idea goes to Nikoli [10].
+
+Loopy was originally contributed to this collection by Mike Pinna, and subsequently enhanced to handle various types of non-square grid by Lambros Lambrou.
+
+[10] https://www.nikoli.co.jp/en/puzzles/slitherlink/
+
+ Click the left mouse button on a yellow line to turn it black, indicating that you think it is part of the loop. Click again to turn the line yellow again (meaning you aren't sure yet).
+
+If you are sure that a particular line segment is not part of the loop, you can click the right mouse button to remove it completely. Again, clicking a second time will turn the line back to yellow.
+
+You can also use the cursor keys to move around the grid. Pressing the return key will toggle the colour of the line under the cursor, and pressing the space bar will remove it.

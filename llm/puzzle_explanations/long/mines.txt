@@ -1,0 +1,17 @@
+ You have a grid of covered squares, some of which contain mines, but you don't know which. Your job is to uncover every square which does not contain a mine. If you uncover a square containing a mine, you lose. If you uncover a square which does not contain a mine, you are told how many mines are contained within the eight surrounding squares.
+
+This game needs no introduction; popularised by Windows, it is perhaps the single best known desktop puzzle game in existence.
+
+This version of it has an unusual property. By default, it will generate its mine positions in such a way as to ensure that you never need to guess where a mine is: you will always be able to deduce it somehow. So you will never, as can happen in other versions, get to the last four squares and discover that there are two mines left but you have no way of knowing for sure where they are.
+
+ This game is played with the mouse.
+
+If you left-click in a covered square, it will be uncovered.
+
+If you right-click in a covered square, it will place a flag which indicates that the square is believed to be a mine. Left-clicking in a marked square will not uncover it, for safety. You can right-click again to remove a mark placed in error.
+
+If you left-click in an uncovered square, it will ‘clear around’ the square. This means: if the square has exactly as many flags surrounding it as it should have mines, then all the covered squares next to it which are not flagged will be uncovered. So once you think you know the location of all the mines around a square, you can use this function as a shortcut to avoid having to click on each of the remaining squares one by one.
+
+If you uncover a square which has no mines in the surrounding eight squares, then it is obviously safe to uncover those squares in turn, and so on if any of them also has no surrounding mines. This will be done for you automatically; so sometimes when you uncover a square, a whole new area will open up to be explored.
+
+You can also use the cursor keys to move around the minefield. Pressing the return key in a covered square uncovers it, and in an uncovered square will clear around it (so it acts as the left button), pressing the space bar in a covered square will place a flag (similarly, it acts as the right button).

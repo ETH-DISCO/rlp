@@ -1,0 +1,9 @@
+You are given a number of points, some of which have lines drawn between them. You can move the points about arbitrarily; your aim is to position the points so that no line crosses another.
+
+I originally saw this in the form of a Flash game called Planarity [7], written by John Tantalo.
+
+[7] http://planarity.net
+
+To move a point, click on it with the left mouse button and drag it into a new position.
+
+The cursor keys may also be used to navigate amongst the points. Pressing the Enter key will toggle dragging the currently-highlighted point. Pressing Tab or Space will cycle through all the points.

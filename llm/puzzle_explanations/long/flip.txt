@@ -1,0 +1,7 @@
+You have a grid of squares, some light and some dark. Your aim is to light all the squares up at the same time. You can choose any square and flip its state from light to dark or dark to light, but when you do so, other squares around it change state as well.
+
+Each square contains a small diagram showing which other squares change when you flip it.
+
+This game can be played with either the keyboard or the mouse.
+
+Left-click in a square to flip it and its associated squares, or use the cursor keys to choose a square and the space bar or Enter key to flip.

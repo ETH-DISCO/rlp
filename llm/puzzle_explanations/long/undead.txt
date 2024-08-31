@@ -1,0 +1,29 @@
+You are given a grid of squares, some of which contain diagonal mirrors. Every square which is not a mirror must be filled with one of three types of undead monster: a ghost, a vampire, or a zombie.
+
+Vampires can be seen directly, but are invisible when reflected in mirrors. Ghosts are the opposite way round: they can be seen in mirrors, but are invisible when looked at directly. Zombies are visible by any means.
+
+You are also told the total number of each type of monster in the grid. Also around the edge of the grid are written numbers, which indicate how many monsters can be seen if you look into the grid along a row or column starting from that position. (The diagonal mirrors are reflective on both sides. If your reflected line of sight crosses the same monster more than once, the number will count it each time it is visible, not just once.)
+
+This puzzle type was invented by David Millar, under the name ‘Haunted Mirror Maze’. See [20] for more details.
+
+Undead was contributed to this collection by Steffen Bauer.
+
+[20] http://www.janko.at/Raetsel/Spukschloss/index.htm
+
+Undead has a similar control system to Solo, Unequal and Keen.
+
+To play Undead, click the mouse in any empty square and then type a letter or number on the keyboard indicating the type of monster: ‘G’ or ‘1’ for a ghost, ‘V’ or ‘2’ for a vampire, or ‘Z’ or ‘3’ for a zombie. If you make a mistake, click the mouse in the incorrect square and press Space to clear it again (or use the Undo feature).
+
+If you right-click in a square and then type a letter or number, the corresponding monster will be shown in reduced size in that square, as a ‘pencil mark’. You can have pencil marks for multiple monsters in the same square. A square containing a full-size monster cannot also contain pencil marks.
+
+The game pays no attention to pencil marks, so exactly what you use them for is up to you: you can use them as reminders that a particular square needs to be re-examined once you know more about a particular monster, or you can use them as lists of the possible monster in a given square, or anything else you feel like.
+
+To erase a single pencil mark, right-click in the square and type the same letter or number again.
+
+All pencil marks in a square are erased when you left-click and type a monster letter, or when you left-click and press Space. Right-clicking and pressing space will also erase pencil marks.
+
+As for Solo, the cursor keys can be used in conjunction with the letter keys to place monsters or pencil marks. Use the cursor keys to move a highlight around the grid, and type a monster letter or number to enter it in the highlighted square. Pressing return toggles the highlight into a mode in which you can enter or remove pencil marks.
+
+If you prefer plain letters of the alphabet to cute monster pictures, you can press ‘A’ to toggle between showing the monsters as monsters or showing them as letters.
+
+Left-clicking a clue will mark it as done (grey it out), or unmark it if it is already marked.
