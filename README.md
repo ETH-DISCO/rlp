@@ -22,7 +22,7 @@ Along with `RLP`, you may find scripts that enable reproduction of the results p
 
 Python 3.10+, a reasonably recent C compiler such as GCC or Clang, [CMake](https://cmake.org/) 3.26.
 
-We only tested the code on Linux.
+We only tested the code on Linux and recommend using Python 3.11.
 
 ### Step-by-step Guide
 
@@ -105,6 +105,24 @@ To manually play one of the puzzles, run the following command in the repository
 Run `./run_puzzle.py --help` for the full range of customizable options.
 
 Check the [list of puzzle names](#list-of-puzzles).
+
+### Evaluation of an Agent
+In order to evaluate an agent previously trained on a specific puzzle, run the following command in the repository's top level.
+
+```shell
+./run_evaluation.py --puzzle <name of puzzle> --arg <parameters>
+```
+
+### Run an LLM that is available via API
+
+To run an LLM that is available via API, run the following command in the repository's top level:
+
+```shell
+./llm/evaluate_llm_agent.py --puzzle <name of puzzle> --arg <parameters> --model_type <gpt4o-mini|gpt4o|gemini-1.5-flash|gemini-1.5-pro>
+```
+
+If you want to evaluate another LLM, you have to write a custom class in `llm/llm_api_agent`.
+Inherit from `llm/llm_api_agent/abstract_puzzles_agent.py` and implement the abstract methods.
 
 ### List of Puzzles
 
@@ -352,6 +370,10 @@ Returns a <i>dict</i> containing the internal data observation for a puzzle.
 </table>
 
 For the latter four, the new functions need to be added in the four dicts `set_api_structures_methods`, `get_action_keys_methods`, `get_observation_space_methods` and `get_observation_methods` respectively.
+
+### Training an LLM
+
+To train an LLM on the puzzles, we recommend using a library such as [LlamaGym](https://github.com/KhoomeiK/LlamaGym).
 
 
 ## License
